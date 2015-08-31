@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+/*----Login----*/
+*{margin:0; padding:0;}
+ul{list-style:none}
+a{text-decoration:none;}
+a:link, a:visited, a:active, a:hover { color: #63a8c9; outline-width: medium; outline-style: none;}
+input {height:25px;}
+input:focus { color: #63a8c9; border-color:#63a8c9; border:1px solid;}
+button{height:20px;}
+body{width:100%;}
+#login { background:#ccc; width:400px; margin:0 auto; text-align:center; margin-top:15%; padding-bottom:10px;}
+#login h3, #header h3 {padding-top:10px; font-size:19px; color:#093; text-transform:uppercase;}
+#login p{margin:10px; margin-top:0;}
+
+/*------Header-----*/
+#header{width:100%; text-align:center; background:#ccc; height:40px;}
+
+/*----contennt---*/
+#content{ width:80%; margin:0 auto; text-align:center;border-left:1px solid #ccc; border-right:1px solid #ccc; position:relative; overflow:auto; }
+.content{min-height:700px; height:auto; width:80%; background:#f1f1f3;}
+.dashboard{width:15%; float:left; /*background:url(../images/leftmenu-middle.png);*/ border-radius:5px; margin:10px;}
+.main-content{width:78%; float:left; background:#fff; margin:10px; border-radius:5px; padding:10px; text-align:left; color: #595A5C; font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-weight: normal;}
+.menu{width:100%; float:left; color: #595A5C;  font-size: 12px; font-weight: bold;}
+.menu li{float:left; width:100%;text-align:center; margin:5px; background:url(../images/leftmenu-sprite.png); height:28px; padding-top:10px;}
+.menu li a{color:#989393; width:100%; text-transform:uppercase; }
+.menu .active{background:#fff; border-radius:5px;}
+.menu .active a{ color: #989393;}
+.menu-actions{width:100%; float:left; height:40px;background:#f1f1f3; border-radius:5px;}
+.menu-actions li{float:left; width:auto; margin:5px; background:#ccc; border-radius:5px; text-align:center; padding:5px 10px 5px 10px; }
+.menu-actions ul li a{text-transform:capitalize; color:#000;  }
+.menu-actions .active {background:#fff;}
+.content form{width:100%; float:left;}
+.content td {border:#ccc 1px solid;}
+.content table{width:100%; float:left;}
+.content span{width:100%; float:left; text-align:left;}
+.content .item{ float:left;}
+.content .submit{float:left; text-align:left;}
+.data-form {float:left; width: 100%;}
+.booking{float:left; width:49%;}
+.customer-details{float:left; width:49%; }
+.booking p, .customer-details p, data-form p{float:left; width:99%; margin:5px;}
+.data-form p{padding:5px;}
+.data-form label{width:60%;}
+
+/*---DASHBOARD-----*/
+.dash-menu{width:100%; float:left; height:63px; background:#f1f1f3; border-radius:5px; border: 1px solid #dddddd;}
+.dash-menu li{width:30.65%; float:left; border-right:1px solid #dddddd;  padding:10px; text-align:center; font-size:14px; }
+.dash-menu .last-child{border-right:none;}
+.dash-menu abbr{display: inline-block; color: #515050; font: bold 34px Verdana,sans-serif; text-shadow: 1px 1px 1px #FFF; margin: 0px 10px 0px 0px; vertical-align: middle; height:inherit;}
+.dash-item, .dash-item-last{ width:32%; margin:5px; height:600px; float:left; background:#f1f1f3; border-radius:5px; border: 1px solid #dddddd;}
+.dash-item-last{margin-right:0;}
+.dash-item pre, .dash-item-last pre { color:#ffo;float:left; margin-top:5px; margin-left:5px;font-size:14px;  }
+.dash-item blockquote{margin:5px;font-size:14px;}
+.column-top{color: #515050;font-size: 14px; line-height: 41px; float: left;  height: 41px; margin: 0px 6px 0px 0px; text-indent: 10px; border-bottom:1px solid #dddddd; width:100%;font-size:14px; }
+
+/*----BOOKING---*/
+.book-item{float:left; width:32%;}
+.controls{float:left; width:100%;}
+#left-col{width:65%; float:left; padding-top:5px; margin-right:10px;}
+.left-col{text-align:left;}
+.left-col table{width:100%; border:1px solid #ccc;}
+.left-col td{border:1px solid #ccc;}
+.left-col table .title {background:#FFC;}
+#right-col{width:33%; float:right;}
+.right-col{text-align:left; padding-top:5px;}
+.right-col p{width:30%; float:left;}
+.right-col .save{margin-top:10px; float:right; margin-right:50px;}
+.right-col .save input {border: 1 px solid #ccc; width:70px; height:25px;}
+.right-col .clear {padding:5px;}
+.right-col input {border:1px #ccc solid; height:20px;}
+#footer{width:100%; background:#ccc; overflow:auto; min-height:40px;}
+
+
